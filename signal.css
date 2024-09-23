@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: system-ui;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.background {
+    border: 6px solid #80808059;
+    border-radius: 36px;
+    height: 600px;
+    background-color: black;
+    margin: 75px 645px 66px 650px;
+}
+
+#Red {
+    border: 5px solid #343434;
+    margin-top: -622px;
+    margin-left: 695px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #554f4f;
+}
+
+#Yellow {
+    border: 5px solid #343434;
+    margin-left: 695px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #554f4f;
+}
+
+#Green {
+    border: 5px solid #343434;
+    margin-left: 695px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #554f4f;
+}
+
+#Red:hover {
+    background-color: red;
+}
+
+#Yellow:hover {
+    background-color: yellow;
+}
+
+#Green:hover {
+    background-color: green;
+}
+
+@media(min-width:376px) {
+    .background {
+        width: 191px;
+        margin-left: 86px;
+    }
+
+    #Red {
+        margin-left: 128px;
+    }
+
+    #Green {
+        margin-left: 128px;
+        margin-top: 36px;
+    }
+
+    #Yellow {
+        margin-left: 128px;
+        margin-top: 36px;
+    }
+}
+
+@media(min-width:639px) and (max-width: 2049px) {
+    .background {
+        margin-left: 670px;
+    }
+
+    #Red {
+        margin-left: 708px;
+    }
+
+    #Green {
+        margin-left: 708px;
+    }
+
+    #Yellow {
+        margin-left: 708px;
+    }
+}
+
+@media(min-width: 250px) and (max-width: 380px) {
+    .background {
+        margin-left: 110px;
+        width: 191px;
+    }
+
+    #Red {
+        margin-left: 155px;
+    }
+
+    #Green {
+        margin-top: 36px;
+        margin-left: 155px;
+    }
+
+    #Yellow {
+        margin-top: 36px;
+        margin-left: 155px;
+    }
+}
